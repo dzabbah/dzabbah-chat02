@@ -1,5 +1,5 @@
-const User = require("../models/User");
-const generateToken = require("../utils/generateToken");
+const User = require("../models/User.js");
+const generateToken = require("../utils/generateToken.js");
 
 exports.register = async (req, res) => {
     try {

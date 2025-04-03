@@ -1,5 +1,5 @@
-const Message = require("../models/Message");
-const Room = require("../models/Room");
+const Message = require("../models/Message.js");
+const Room = require("../models/Room.js");
 
 exports.sendMessage = async (req, res) => {
     try {

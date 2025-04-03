@@ -1,5 +1,5 @@
-const Room = require("../models/Room");
-const User = require("../models/User");
+const Room = require("../models/Room.js");
+const User = require("../models/User.js");
 
 exports.createRoom = async (req, res) => {
     try {

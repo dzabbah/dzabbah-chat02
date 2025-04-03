@@ -7,6 +7,8 @@ const roomRoutes = require("./routes/roomRoutes");
 const userRoutes = require("./routes/userRoutes");
 const messageRoutes = require("./routes/messageRoutes");
 const Message = require("./models/Message");
+//const userController = require('../controllers/userController');
+
 
 require("dotenv").config();
 
@@ -59,5 +61,5 @@ io.on("connection", (socket) => {
     });
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5002;
 server.listen(PORT, () => console.log(`🚀 Serveur démarré sur le port ${PORT}`));

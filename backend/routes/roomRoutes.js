@@ -1,6 +1,6 @@
 const express = require("express");
-const { createRoom, getRooms, joinRoom, leaveRoom } = require("../controllers/roomController");
-const authMiddleware = require("../middleware/authMiddleware");
+const { createRoom, getRooms, joinRoom, leaveRoom } = require("../controllers/roomController.js");
+const authMiddleware = require("../middleware/authMiddleware.js");
 
 const router = express.Router();
 
